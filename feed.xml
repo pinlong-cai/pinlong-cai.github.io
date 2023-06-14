@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://pinlong-cai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pinlong-cai.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-14T08:15:55+00:00</updated><id>https://pinlong-cai.github.io/feed.xml</id><title type="html">Pinlong Cai</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">LimSim</title><link href="https://pinlong-cai.github.io/blog/2023/LimSim/" rel="alternate" type="text/html" title="LimSim" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://pinlong-cai.github.io/blog/2023/LimSim</id><content type="html" xml:base="https://pinlong-cai.github.io/blog/2023/LimSim/"><![CDATA[<p><img src="assets/img/limsim/limsim.svg" alt="limsim.svg" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://pinlong-cai.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pinlong-cai.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-14T08:22:04+00:00</updated><id>https://pinlong-cai.github.io/feed.xml</id><title type="html">Pinlong Cai</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">LimSim</title><link href="https://pinlong-cai.github.io/blog/2023/LimSim/" rel="alternate" type="text/html" title="LimSim" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://pinlong-cai.github.io/blog/2023/LimSim</id><content type="html" xml:base="https://pinlong-cai.github.io/blog/2023/LimSim/"><![CDATA[<p><img src="../../../assets/img/limsim/limsim.svg" alt="limsim.svg" /></p>
 <h1 id="limsim">LimSim</h1>
 
 <p>LimSim is a Long-term Interactive Multi-scenario traffic Simulator, which aims to provide a continuous simulation capability under the complex urban road network.</p>
@@ -27,7 +27,7 @@
 
 <p>LimSim has a cross-platform user-friendly GUI, which includes not only a beautiful simulation interface, but also information on road network and ego-vehicle status.</p>
 <p align="center">
-  <img src="assets/img/limsim/limsim_gui.png" title="" alt="limsim_gui.png" />
+  <img src="../../../assets/img/limsim/limsim_gui.png" title="" alt="limsim_gui.png" data-align="center" width="700" />
 </p>
 
 <h2 id="️-multi-scenarios-support">🛣️ Multi-scenarios support</h2>
@@ -35,7 +35,7 @@
 <p>LimSim supports road scenarios not limited to freeways, signalized intersections, roundabouts and overpasses.</p>
 
 <p align="center">
- <img src="assets/img/limsim/scenarios.gif" title="" alt="scenarios.gif" data-align="center" width="700" />
+ <img src="../../../assets/img/limsim/scenarios.gif" title="" alt="scenarios.gif" data-align="center" width="500" />
 </p>
 
 <h2 id="-scenario-evaluation">📊 Scenario Evaluation</h2>
@@ -43,7 +43,7 @@
 <p>After running a long-term simulation with all kinds of scenarios contained in it, LimSim generates a log report and extract the key scenarios via the evaluation results.</p>
 
 <p align="center">
- <img src="assets/img/limsim/evaluation.gif" title="" alt="evaluation.gif" data-align="center" width="700" />
+ <img src="../../../assets/img/limsim/evaluation.gif" title="" alt="evaluation.gif" data-align="center" width="500" />
 </p>
 
 <h2 id="co-sim-with-sumo--carla">💡Co-sim with SUMO &amp; CARLA</h2>
@@ -51,7 +51,7 @@
 <p>LimSim supports co-simulation with CARLA and SUMO, guaranteeing that all three softwares show identical vehicle status.</p>
 
 <p align="center">
- <img src="assets/img/limsim/cosim.gif" title="" alt="cosim.gif" data-align="center" width="700" />
+ <img src="../../../assets/img/limsim/cosim.gif" title="" alt="cosim.gif" data-align="center" width="500" />
 </p>
 
 <h2 id="license">License</h2>
