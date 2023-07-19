@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>A Long-term Interactive Multi-scenario traffic Simulator (LimSim) | Pinlong Cai</title>
+    <title>Guidelines | Pinlong Cai</title>
     <meta name="author" content="Pinlong  Cai">
-    <meta name="description" content="A Long-term Interactive Multi-scenario traffic Simulator">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -38,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://pinlong-cai.github.io/blog/2023/LimSim/">
+    <link rel="canonical" href="https://pinlong-cai.github.io/news/Guidelines/">
 
     <!-- Dark Mode -->
     
@@ -76,10 +77,6 @@
                 <a class="nav-link" href="/">about</a>
               </li>
               
-              <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
-              </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
@@ -118,10 +115,10 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">A Long-term Interactive Multi-scenario traffic Simulator (LimSim)</h1>
-    <p class="post-meta">June 1, 2023</p>
+    <h1 class="post-title">Guidelines</h1>
+    <p class="post-meta">September 2, 2022</p>
     <p class="post-tags">
-      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
 
     </p>
   </header>
@@ -129,77 +126,10 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p align="center">
-  <img src="../../../assets/img/limsim/limsim.svg" title="" alt="limsim_gui.png" data-align="center" width="700">
-</p>
-
-<h1 id="limsim">LimSim</h1>
-
-<p>LimSim is a Long-term Interactive Multi-scenario traffic Simulator, which aims to provide a continuous simulation capability under the complex urban road network.</p>
-
-<p><strong>The code is about to be released.</strong> Checkout the <a href="https://www.youtube.com/playlist?list=PLNeNtm096CAyYD1JJnkQ4gMaoFSdFLn2y" rel="external nofollow noopener" target="_blank">YouTube playlist</a> first for our awesome videos!</p>
-
-<h2 id="-main-features">🎁 Main Features</h2>
-
-<ul class="task-list">
-  <li class="task-list-item">
-    <p><input type="checkbox" class="task-list-item-checkbox" disabled checked><strong>Long-term</strong>: Traffic flow can be generated over long periods under the guidance of demand and route planning.</p>
-  </li>
-  <li class="task-list-item">
-    <p><input type="checkbox" class="task-list-item-checkbox" disabled checked><strong>Diversity</strong>: The built-in behavioral models take heterogeneous driving styles of vehicles into account.</p>
-  </li>
-  <li class="task-list-item">
-    <p><input type="checkbox" class="task-list-item-checkbox" disabled checked><strong>Interactivity</strong>: Vehicles in the scenario area are controlled  address sophisticated interactions among vehicles.</p>
-  </li>
-  <li class="task-list-item">
-    <p><input type="checkbox" class="task-list-item-checkbox" disabled checked><strong>Multi-scenario</strong>: The universal road components supports a variety of road structures in the real world.</p>
-  </li>
-</ul>
-
-<h2 id="️-gui">🖥️ GUI</h2>
-
-<p>LimSim has a cross-platform user-friendly GUI, which includes not only a beautiful simulation interface, but also information on road network and ego-vehicle status.</p>
-<p align="center">
-  <img src="../../../assets/img/limsim/limsim_gui.png" title="" alt="limsim_gui.png" data-align="center" width="700">
-</p>
-
-<h2 id="️-multi-scenarios-support">🛣️ Multi-scenarios support</h2>
-
-<p>LimSim supports road scenarios not limited to freeways, signalized intersections, roundabouts and overpasses.</p>
-
-<p align="center">
- <img src="../../../assets/img/limsim/scenarios.gif" title="" alt="scenarios.gif" data-align="center" width="500">
-</p>
-
-<h2 id="-scenario-evaluation">📊 Scenario Evaluation</h2>
-
-<p>After running a long-term simulation with all kinds of scenarios contained in it, LimSim generates a log report and extract the key scenarios via the evaluation results.</p>
-
-<p align="center">
- <img src="../../../assets/img/limsim/evaluation.gif" title="" alt="evaluation.gif" data-align="center" width="500">
-</p>
-
-<h2 id="co-sim-with-sumo--carla">💡Co-sim with SUMO &amp; CARLA</h2>
-
-<p>LimSim supports co-simulation with CARLA and SUMO, guaranteeing that all three softwares show identical vehicle status.</p>
-
-<p align="center">
- <img src="../../../assets/img/limsim/cosim.gif" title="" alt="cosim.gif" data-align="center" width="500">
-</p>
-
-<h2 id="license">License</h2>
-
-<p>LimSim is released under the <a href="https://github.com/PJLab-ADG/SensorsCalibration/blob/master/LICENSE" rel="external nofollow noopener" target="_blank">Apache 2.0 license</a>.</p>
-
-<h2 id="contact">Contact</h2>
-
-<p>If you have any suggestions or collaboration about this repo, feel free to create a issue/PR or send email to us (<a href="mailto:wenlicheng@pjlab.org.cn">caipinlong@pjlab.org.cn; wenlicheng@pjlab.org.cn</a>).</p>
-
+      <p>The release of the <a href="http://www.openeglab.org.cn/#/solution/drive" rel="external nofollow noopener" target="_blank">Guidelines on Data Compliance of Connected Automated Vehicles</a> in WAIC 2022</p>
 
     </div>
   </article>
-
-
 </div>
 
       
@@ -253,7 +183,8 @@
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
+    <a href="https://www.easycounter.com/" rel="external nofollow noopener" target="_blank">
+<center><img src="https://www.easycounter.com/counter.php?caipinlong" border="0" alt="HTML Hit Counters"></center></a>
     
 
 <!-- Scrolling Progress Bar -->
