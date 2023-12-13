@@ -1,0 +1,68 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Pinlong Cai
+    - name: Institution
+      value: Shanghai Artificial Intelligence Laboratory
+    - name: Languages
+      value: Chinese, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: BS/MS/PhD
+      institution: Beihang University, Beijing, China
+      year: 2009-2020
+      description : 
+        - Major in Traffic Information Engineering and Control
+        - Beijing Key Laboratory of Vehicle Infrastructure Cooperation and Safety Control
+        - Beijing Outstanding Graduates Award
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Junior Specialist
+      institution: Shanghai Artificial Intelligence Laboratory
+      year: 2021 - now
+      description:
+        - Decision and Planning
+        - Cooperative Vehicle Infrastructure System
+        - Data Governance
+
+    - title: Standard & Strategy Engineer
+      institution: ZTE Corporation
+      year: 2020-2021
+      description:
+        - Vehicle to Everything
+        - Video Codec
+
+    - title: Research & Development Engineer
+      institution: Quanzhou Institute of Equipment Manufacturing, Chinese Academy of Sciences
+      year: 2016-2017
+      description:
+        - Algorithm Development
+        - Technical Cooperation
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/PJLab-ADG/LimSim">LimSim</a>
+      year: 2021 - now
+      description: A Long-term Interactive Multi-scenario traffic Simulator.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - Yangfan Special Project of the Shanghai Qimingxing Program
+
+- title: Academic Interests
+  type: nested_list
+  contents:    
+    - title:
+      items: 
+        - Automated Vehicle
+        - Trajectory Planning
+        - Decision Intelligence
