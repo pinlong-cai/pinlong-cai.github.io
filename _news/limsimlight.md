@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-**LimSimLight: Parsing OpenDrive map files and simulating by the new self-developed engine has been released** ([Code](https://github.com/PJLab-ADG/LimSim/tree/LimSimLight))
+**LimSimLight** (new version of Limsim to parsing OpenDrive map files and simulate by the new self-developed engine) has been released ([Code](https://github.com/PJLab-ADG/LimSim/tree/LimSimLight))
