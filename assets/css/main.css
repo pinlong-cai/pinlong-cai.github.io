@@ -13,7 +13,7 @@
   --global-text-color-light: #828282;
   --global-theme-color: #0076df;
   --global-hover-color: #0076df;
-  --global-footer-bg-color: #1C1C1D;
+  --global-footer-bg-color: #1c1c1d;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
@@ -31,14 +31,14 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #1C1C1D;
+  --global-bg-color: #1c1c1d;
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
+  --global-theme-color: #2698ba;
+  --global-hover-color: #2698ba;
   --global-footer-bg-color: #e8e8e8;
-  --global-footer-text-color: #1C1C1D;
+  --global-footer-text-color: #1c1c1d;
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
@@ -62,7 +62,12 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 }
-body h1, body h2, body h3, body h4, body h5, body h6 {
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
   scroll-margin-top: 66px;
 }
 
@@ -244,27 +249,6 @@ blockquote {
 }
 .navbar.navbar-light .navbar-brand.social a:hover i::before {
   color: var(--global-theme-color);
-}
-
-.navbar-toggler .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  background-color: var(--global-text-color);
-  border-radius: 1px;
-  margin-bottom: 4px;
-  transition: all 0.2s;
-}
-.navbar-toggler .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
-.navbar-toggler .middle-bar {
-  opacity: 0;
-}
-.navbar-toggler .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
 }
 
 .navbar-toggler.collapsed .top-bar {
@@ -657,6 +641,31 @@ html.transition *:after {
   padding-top: 0.25rem;
 }
 
+/* 彻底消除左上角灰色条（覆盖所有可能来源） */
+html,
+body {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 修复 Safari/Chrome GPU 渲染残留 */
+* {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* 防止伪元素干扰 */
+body::before,
+body::after,
+html::before,
+html::after {
+  content: none !important;
+  display: none !important;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
@@ -668,20 +677,35 @@ d-byline h3 {
   color: var(--global-text-color) !important;
 }
 
-d-byline a, d-article d-byline a {
+d-byline a,
+d-article d-byline a {
   color: var(--global-text-color) !important;
 }
-d-byline a:hover, d-article d-byline a:hover {
+d-byline a:hover,
+d-article d-byline a:hover {
   color: var(--global-hover-color) !important;
 }
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
 }
-d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6, d-article li, d-article table {
+d-article p,
+d-article h1,
+d-article h2,
+d-article h3,
+d-article h4,
+d-article h5,
+d-article h6,
+d-article li,
+d-article table {
   color: var(--global-text-color) !important;
 }
-d-article h1, d-article h2, d-article hr, d-article table, d-article table th, d-article table td {
+d-article h1,
+d-article h2,
+d-article hr,
+d-article table,
+d-article table th,
+d-article table td {
   border-bottom-color: var(--global-divider-color) !important;
 }
 d-article a {
@@ -772,13 +796,17 @@ d-appendix {
   border-top-color: var(--global-divider-color) !important;
   color: var(--global-distill-app-color) !important;
 }
-d-appendix h3, d-appendix li, d-appendix span {
+d-appendix h3,
+d-appendix li,
+d-appendix span {
   color: var(--global-distill-app-color) !important;
 }
-d-appendix a, d-appendix a.footnote-backlink {
+d-appendix a,
+d-appendix a.footnote-backlink {
   color: var(--global-distill-app-color) !important;
 }
-d-appendix a:hover, d-appendix a.footnote-backlink:hover {
+d-appendix a:hover,
+d-appendix a.footnote-backlink:hover {
   color: var(--global-hover-color) !important;
 }
 
