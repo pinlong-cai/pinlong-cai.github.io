@@ -4,7 +4,7 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 /*******************************************************************************
- * Themes - 修复图标颜色问题（关键修改已标注）
+ * Themes - 完整修复：底部透明化 + 主题图标颜色
  ******************************************************************************/
 :root {
   --global-bg-color: #ffffff;
@@ -13,23 +13,15 @@
   --global-text-color-light: #828282;
   --global-theme-color: #0076df;
   --global-hover-color: #0076df;
-  --global-footer-bg-color: #1c1c1d;
-  --global-footer-text-color: #e8e8e8;
-  --global-footer-link-color: #ffffff;
+  /* 亮色主题：footer 半透明白 */
+  --global-footer-bg-color: rgba(255, 255, 255, 0.85);
+  --global-footer-text-color: #828282;
+  --global-footer-link-color: #0076df;
   --global-distill-app-color: #828282;
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-callout-bg-color: #fff3cd;
   --global-callout-border-color: #ffc107;
-  --theme-icon-color: #000000;
-}
-:root .fa-sun {
-  display: none;
-}
-:root .fa-moon {
-  padding-left: 4px;
-  padding-top: 3px;
-  display: block;
-  color: var(--theme-icon-color) !important;
+  --theme-icon-color: #000000; /* 亮色下图标为黑色 */
 }
 
 html[data-theme=dark] {
@@ -39,23 +31,69 @@ html[data-theme=dark] {
   --global-text-color-light: #e8e8e8;
   --global-theme-color: #2698ba;
   --global-hover-color: #2698ba;
-  --global-footer-bg-color: #e8e8e8;
-  --global-footer-text-color: #1c1c1d;
-  --global-footer-link-color: #000000;
+  /* 暗色主题：footer 半透明深灰 */
+  --global-footer-bg-color: rgba(10, 10, 15, 0.8);
+  --global-footer-text-color: #e8e8e8;
+  --global-footer-link-color: #2698ba;
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
   --global-callout-bg-color: #3d3d00;
   --global-callout-border-color: #ffc107;
-  --theme-icon-color: #ffffff;
+  --theme-icon-color: #ffffff; /* 暗色下图标为白色 */
 }
-html[data-theme=dark] .fa-sun {
-  padding-left: 4px;
-  padding-top: 3px;
-  display: block;
+
+/* Footer 样式（适配 fixed-bottom） */
+footer.fixed-bottom,
+.footer,
+.site-footer {
+  background: var(--global-footer-bg-color);
+  color: var(--global-footer-text-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 12px 20px;
+  font-size: 14px;
+  /* 确保宽度撑满 */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Footer 链接颜色 */
+footer.fixed-bottom a,
+.footer a,
+.site-footer a {
+  color: var(--global-footer-link-color);
+}
+
+/* ✨ 主题切换图标：关键修复部分 */
+#light-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+#light-toggle .fas {
+  /* 统一使用主题变量控制颜色 */
   color: var(--theme-icon-color) !important;
+  font-size: 16px;
+  /* 确保两个月亮/太阳尺寸一致，避免布局跳动 */
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  display: inline-block;
 }
+
+/* 控制显隐：用 display 切换（无动画但稳定） */
+:root .fa-sun,
 html[data-theme=dark] .fa-moon {
-  display: none;
+  display: none !important;
+}
+
+:root .fa-moon,
+html[data-theme=dark] .fa-sun {
+  display: inline-block !important;
 }
 
 /******************************************************************************
@@ -322,13 +360,24 @@ blockquote {
 }
 
 footer.fixed-bottom {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important; /* 👈 关键！替代 width:100%，避免滚动条影响 */
+  z-index: 9999;
   background-color: var(--global-footer-bg-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 0.75rem;
 }
 footer.fixed-bottom .container {
   color: var(--global-footer-text-color);
   padding-top: 9px;
   padding-bottom: 8px;
+  width: 100% !important; /* 防止 container 缩小 */
+  max-width: none !important; /* 覆盖 Bootstrap 默认 max-width */
+  text-align: center; /* 如果希望文字居中（可选）*/
 }
 footer.fixed-bottom a {
   color: var(--global-footer-link-color);
@@ -336,13 +385,6 @@ footer.fixed-bottom a {
 footer.fixed-bottom a:hover {
   color: var(--global-theme-color);
   text-decoration: none;
-}
-
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
 }
 
 .header-bar {
@@ -731,6 +773,11 @@ html::after {
 #light-toggle:hover {
   background-color: rgba(0, 0, 0, 0.05);
   transform: scale(1.05);
+}
+
+/* 在全局 CSS 中添加 */
+body {
+  padding-bottom: 60px !important; /* ≥ footer 高度 */
 }
 
 /*******************************************************************************
