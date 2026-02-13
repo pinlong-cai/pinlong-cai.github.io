@@ -106,14 +106,42 @@ blockquote {
   }
 }
 
-// Navbar customization
+// Navbar customization - ✨ 移动端修复核心
 
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+
+  // ✨ 强制移动端 flex 布局（关键！）
+  // 在 .navbar 规则内补充
+  @media (max-width: 767.98px) {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
+    .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
+      max-width: 60%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .navbar-toggler {
+      margin-left: 0 !important;
+    }
+    .toggle-container {
+      margin-left: auto !important; /* 确保主题按钮靠右 */
+    }
+  }
 }
+
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
@@ -175,7 +203,13 @@ blockquote {
   }
 }
 
+// ✨ 重写汉堡菜单动画（避免线条重叠）
 .navbar-toggler {
+  border: none;
+  background: transparent;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+
   .icon-bar {
     display: block;
     width: 22px;
@@ -183,34 +217,40 @@ blockquote {
     background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
     position: relative;
-    z-index: 1; /* 关键：确保线条不重叠 */
-  }
-  .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
-    transform-origin: 0 0; /* 改为左上角原点 */
-  }
-  .middle-bar {
-    opacity: 0;
-  }
-  .bottom-bar {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
-    transform-origin: 0 100%; /* 改为左下角原点 */
-  }
-}
 
-.navbar-toggler.collapsed {
-  .top-bar {
-    transform: rotate(0);
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
-  .middle-bar {
-    opacity: 1;
+
+  &.collapsed {
+    .icon-bar {
+      &:nth-child(1) {
+        transform: rotate(0);
+      }
+      &:nth-child(2) {
+        opacity: 1;
+      }
+      &:nth-child(3) {
+        transform: rotate(0);
+      }
+    }
   }
-  .bottom-bar {
-    transform: rotate(0);
+
+  &:not(.collapsed) {
+    .icon-bar {
+      &:nth-child(1) {
+        transform: rotate(45deg) translateY(6px) translateX(1px);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg) translateY(-6px) translateX(1px);
+      }
+    }
   }
 }
 
