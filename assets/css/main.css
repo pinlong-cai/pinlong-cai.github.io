@@ -263,17 +263,13 @@ blockquote {
 }
 
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border: 1px solid var(--global-divider-color);
 }
-.navbar .dropdown-menu a:not(.active) {
-  color: var(--global-text-color);
-}
-.navbar .dropdown-menu a:hover {
-  color: var(--global-hover-color);
-}
-.navbar .dropdown-menu .dropdown-divider {
-  border-top: 1px solid var(--global-divider-color) !important;
+html[data-theme=dark] .navbar .dropdown-menu {
+  background-color: rgba(25, 25, 30, 0.92);
 }
 
 .dropdown-item {
