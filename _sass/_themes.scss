@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Themes
+ * Themes - 修复图标颜色问题（关键修改已标注）
  ******************************************************************************/
 
 :root {
@@ -16,14 +16,18 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-callout-bg-color: #fff3cd;
   --global-callout-border-color: #ffc107;
+  // ✨ 新增：亮色主题图标颜色（深色）
+  --theme-icon-color: #{$black-color};
 
   .fa-sun {
     display: none;
   }
   .fa-moon {
-    padding-left: 10px;
-    padding-top: 12px;
+    padding-left: 4px;
+    padding-top: 3px;
     display: block;
+    // ✨ 关键修复：月亮在亮色主题下用深色
+    color: var(--theme-icon-color) !important;
   }
 }
 
@@ -41,11 +45,17 @@ html[data-theme="dark"] {
   --global-divider-color: #424246;
   --global-callout-bg-color: #3d3d00;
   --global-callout-border-color: #ffc107;
+  // ✨ 新增：暗色主题图标颜色（白色！解决看不见的问题）
+  --theme-icon-color: #{$white-color};
 
   .fa-sun {
-    padding-left: 10px;
-    padding-top: 12px;
+    padding-left: 4px;
+    padding-top: 3px;
     display: block;
+    // ✨ 关键修复：太阳在暗色主题下强制用白色
+    color: var(
+      --theme-icon-color
+    ) !important; // 必须加 !important 覆盖字体默认色
   }
   .fa-moon {
     display: none;

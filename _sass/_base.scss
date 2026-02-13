@@ -175,32 +175,32 @@ blockquote {
   }
 }
 
-// .navbar-toggler {
-//   .icon-bar {
-//     display: block;
-//     width: 22px;
-//     height: 2px;
-//     background-color: var(--global-text-color);
-//     border-radius: 1px;
-//     margin-bottom: 4px;
-//     transition: all 0.2s;
-//     position: relative;
-//     z-index: 1; /* 关键：确保线条不重叠 */
-//   }
-//   .top-bar {
-//     transform: rotate(45deg);
-//     transform-origin: 10% 10%;
-//     transform-origin: 0 0; /* 改为左上角原点 */
-//   }
-//   .middle-bar {
-//     opacity: 0;
-//   }
-//   .bottom-bar {
-//     transform: rotate(-45deg);
-//     transform-origin: 10% 90%;
-//     transform-origin: 0 100%; /* 改为左下角原点 */
-//   }
-// }
+.navbar-toggler {
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: var(--global-text-color);
+    border-radius: 1px;
+    margin-bottom: 4px;
+    transition: all 0.2s;
+    position: relative;
+    z-index: 1; /* 关键：确保线条不重叠 */
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+    transform-origin: 0 0; /* 改为左上角原点 */
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+    transform-origin: 0 100%; /* 改为左下角原点 */
+  }
+}
 
 .navbar-toggler.collapsed {
   .top-bar {
@@ -678,4 +678,42 @@ html::before,
 html::after {
   content: none !important;
   display: none !important;
+}
+
+/* 紧凑容器，避免 li 自带边距 */
+.toggle-container {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block; /* 防止 li 撑满整行 */
+}
+
+/* 按钮本体：小尺寸 + 圆形 + 无冗余样式 */
+#light-toggle {
+  background: none;
+  border: none; /* 移除默认边框（“方框”主因）*/
+  padding: 6px; /* 原始值常为 10px+，此处显著缩小 */
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; /* 圆形按钮更紧凑美观 */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.2s; /* 微交互提升体验 */
+}
+
+/* 图标尺寸控制（Font Awesome 由 font-size 决定大小）*/
+#light-toggle .fas {
+  font-size: 16px; /* 原始常为 20px+，按需微调 */
+  position: absolute; /* 使两个月亮/太阳图标重叠，避免宽度翻倍 */
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+/* 可选：悬停微反馈 */
+#light-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1.05);
 }
