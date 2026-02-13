@@ -1,23 +1,32 @@
 {%- if site.enable_google_analytics -%}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ window.dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "{{ site.google_analytics }}");
+</script>
+{%- endif -%} {%- if site.enable_panelbear_analytics -%}
+<!-- Panelbear Analytics - We respect your privacy -->
+<script
+  async
+  src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"
+></script>
+<script>
+  window.panelbear =
+    window.panelbear ||
+    function () {
+      (window.panelbear.q = window.panelbear.q || []).push(arguments);
+    };
+  panelbear("config", { site: "{{site.panelbear_analytics}}" });
+</script>
 {%- endif -%}
-{%- if site.enable_panelbear_analytics -%}
-  <!-- Panelbear Analytics - We respect your privacy -->
-  <script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
-  <script>
-    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-    panelbear('config', { site: '{{site.panelbear_analytics}}' });
-  </script>
-{%- endif -%}
-
-
 
 <!--
 <a href="https://www.easycounter.com/">
@@ -25,4 +34,10 @@
 border="0" alt="HTML Hit Counters"></center></a>
 -->
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=4HzGRT5SdmmrWySDn8wxm6REmOhekcg9X4J5yNK0L7E'></script>
+<div style="margin-bottom: 0px">
+  <script
+    type="text/javascript"
+    id="clustrmaps"
+    src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=4HzGRT5SdmmrWySDn8wxm6REmOhekcg9X4J5yNK0L7E"
+  ></script>
+</div>

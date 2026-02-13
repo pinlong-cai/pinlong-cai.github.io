@@ -253,15 +253,33 @@ blockquote {
   }
 }
 
-// Footer
+// Footer - 完全兼容 Bootstrap 的 fixed-bottom
 footer.fixed-bottom {
+  // ✨ 核心修复：确保 full-width + 正确层叠
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important; /* 👈 关键！替代 width:100%，避免滚动条影响 */
+  z-index: 9999;
+
+  // 背景半透明（依赖您已定义的变量）
   background-color: var(--global-footer-bg-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+
   font-size: 0.75rem;
+
+  // ✨ 修复文字左偏：强制 container 居中且 full-width
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    width: 100% !important; /* 防止 container 缩小 */
+    max-width: none !important; /* 覆盖 Bootstrap 默认 max-width */
+    text-align: center; /* 如果希望文字居中（可选）*/
   }
+
   a {
     color: var(--global-footer-link-color);
     &:hover {
@@ -270,14 +288,6 @@ footer.fixed-bottom {
     }
   }
 }
-
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
-}
-
 // Blog
 
 .header-bar {
@@ -716,4 +726,9 @@ html::after {
 #light-toggle:hover {
   background-color: rgba(0, 0, 0, 0.05);
   transform: scale(1.05);
+}
+
+/* 在全局 CSS 中添加 */
+body {
+  padding-bottom: 60px !important; /* ≥ footer 高度 */
 }
