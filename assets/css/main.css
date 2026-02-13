@@ -4,7 +4,7 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 /*******************************************************************************
- * Themes
+ * Themes - 修复图标颜色问题（关键修改已标注）
  ******************************************************************************/
 :root {
   --global-bg-color: #ffffff;
@@ -20,14 +20,16 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-callout-bg-color: #fff3cd;
   --global-callout-border-color: #ffc107;
+  --theme-icon-color: #000000;
 }
 :root .fa-sun {
   display: none;
 }
 :root .fa-moon {
-  padding-left: 10px;
-  padding-top: 12px;
+  padding-left: 4px;
+  padding-top: 3px;
   display: block;
+  color: var(--theme-icon-color) !important;
 }
 
 html[data-theme=dark] {
@@ -44,11 +46,13 @@ html[data-theme=dark] {
   --global-divider-color: #424246;
   --global-callout-bg-color: #3d3d00;
   --global-callout-border-color: #ffc107;
+  --theme-icon-color: #ffffff;
 }
 html[data-theme=dark] .fa-sun {
-  padding-left: 10px;
-  padding-top: 12px;
+  padding-left: 4px;
+  padding-top: 3px;
   display: block;
+  color: var(--theme-icon-color) !important;
 }
 html[data-theme=dark] .fa-moon {
   display: none;
@@ -249,6 +253,31 @@ blockquote {
 }
 .navbar.navbar-light .navbar-brand.social a:hover i::before {
   color: var(--global-theme-color);
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--global-text-color);
+  border-radius: 1px;
+  margin-bottom: 4px;
+  transition: all 0.2s;
+  position: relative;
+  z-index: 1; /* 关键：确保线条不重叠 */
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  transform-origin: 0 0; /* 改为左上角原点 */
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  transform-origin: 0 100%; /* 改为左下角原点 */
 }
 
 .navbar-toggler.collapsed .top-bar {
@@ -664,6 +693,44 @@ html::before,
 html::after {
   content: none !important;
   display: none !important;
+}
+
+/* 紧凑容器，避免 li 自带边距 */
+.toggle-container {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block; /* 防止 li 撑满整行 */
+}
+
+/* 按钮本体：小尺寸 + 圆形 + 无冗余样式 */
+#light-toggle {
+  background: none;
+  border: none; /* 移除默认边框（“方框”主因）*/
+  padding: 6px; /* 原始值常为 10px+，此处显著缩小 */
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; /* 圆形按钮更紧凑美观 */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.2s; /* 微交互提升体验 */
+}
+
+/* 图标尺寸控制（Font Awesome 由 font-size 决定大小）*/
+#light-toggle .fas {
+  font-size: 16px; /* 原始常为 20px+，按需微调 */
+  position: absolute; /* 使两个月亮/太阳图标重叠，避免宽度翻倍 */
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+/* 可选：悬停微反馈 */
+#light-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1.05);
 }
 
 /*******************************************************************************
