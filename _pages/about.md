@@ -77,7 +77,7 @@ I am committed to contributing to this journey, not just for the technology itse
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Dec 12, 2023</span> · <span class="timeline-role">Towards Knowledge-driven Autonomous Driving</span> (<a href="https://arxiv.org/abs/2312.04316">review paper</a>) has been released</div>
+<div class="timeline-header"><span class="timeline-period">Dec 12, 2023</span> · <span class="timeline-role">Towards Knowledge-driven Autonomous Driving</span> (<a href="https://arxiv.org/abs/2312.04316">Review Paper</a>) has been released</div>
 </div>
 
 <div class="timeline-item">
