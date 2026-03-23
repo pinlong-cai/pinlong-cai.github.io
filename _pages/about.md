@@ -65,7 +65,7 @@ I am committed to contributing to this journey, not just for the technology itse
 <div class="timeline">
 
 <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Dec 1, 2025</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Oriental Talent Program (Young Talent)</strong> </div>
+  <div class="timeline-header"><span class="timeline-period">Dec 01, 2025</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Oriental Talent Program (Young Talent)</strong> </div>
 </div>
 
 <div class="timeline-item">
