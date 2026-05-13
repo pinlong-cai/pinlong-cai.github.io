@@ -63,13 +63,13 @@ I am committed to contributing to this journey, not just for the technology itse
 #### News
 
 <div class="timeline">
-
+  
 <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Dec 01, 2025</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Oriental Talent Program (Young Talent)</strong> </div>
+<div class="timeline-header"><span class="timeline-period">April 02, 2026</span> · <span class="timeline-role">Heta</span> (the multimodal knowledge base for AI agents) has been released (<a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Sep 03, 2025</span> · <span class="timeline-role">HetaRAG</span> (a hybrid, deep-retrieval RAG framework that unifies multiple heterogeneous data stores) has been released (<a href="https://github.com/KnowledgeXLab/HetaRAG">Code</a>)</div>
+  <div class="timeline-header"><span class="timeline-period">Dec 01, 2025</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Oriental Talent Program (Young Talent)</strong> </div>
 </div>
 
 <div class="timeline-item">
