@@ -656,6 +656,9 @@ html.transition *:after {
     .timeline-header {
       font-size: 0.95rem;
       margin-bottom: 0.1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
 
       .timeline-period {
         color: var(--global-text-color-light);
