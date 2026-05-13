@@ -481,6 +481,10 @@ footer.fixed-bottom {
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          width: 80px;        /* 统一方框宽度 */
+          text-align: center; /* 文字居中 */
+          white-space: nowrap;/* 防止文字换行 */
+          overflow: hidden;   /* 超长文字隐藏 */
           a {
             color: white;
             &:hover {
