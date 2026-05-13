@@ -10,13 +10,6 @@ nav: true
 nav_order: 1
 ---
 
-[[Published Papers](#published-papers)]
-[[Preprints](#preprints)]
-
-
-
-#### published papers
-
 <div class="publications">
 
 {% for y in page.years %}
@@ -29,15 +22,3 @@ nav_order: 1
 </div>
 
 
-#### Preprints
-
-<div class="publications">
-
-{% for y in page.years %}
-  	{% unless page.ignore_years_preprint contains y %}
-      	<h2 class="year">{{y}}</h2>
-      	{% bibliography -f preprints -q @*[year={{y}}]* %}
-   	{% endunless %}
-{% endfor %}
-
-</div>
