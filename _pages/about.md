@@ -65,26 +65,27 @@ I am committed to contributing to this journey, not just for the technology itse
 <div class="timeline">
   
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Apr, 2026</span> · <span class="timeline-role">Heta</span> (the multimodal knowledge base for AI agents) has been released (<a href="https://knowledgexlab.github.io/Heta/">Docs</a> and <a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
+<div class="timeline-header"><span class="timeline-period">Apr, 2026&nbsp;&nbsp;&nbsp;</span> · <span class="timeline-role">Heta</span> (the multimodal knowledge base for AI agents) has been released (<a href="https://knowledgexlab.github.io/Heta/">Docs</a> and <a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Dec, 2025</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Oriental Talent Program (Young Talent)</strong> </div>
+  <div class="timeline-header"><span class="timeline-period">Dec, 2025&nbsp;&nbsp;</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Oriental Talent Program (Young Talent)</strong> </div>
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Apr, 2024</span> · <span class="timeline-role">InternVL 1.5</span> (an open-source multimodal large language model) has been released (<a href="https://github.com/OpenGVLab/InternVL">Code</a>, <a href="https://arxiv.org/pdf/2404.16821">Paper</a>, <a href="https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5">Model</a> and <a href="https://arxiv.org/abs/2406.08418">Dataset</a>)</div>
+<div class="timeline-header"><span class="timeline-period">Apr, 2024&nbsp;&nbsp;&nbsp;</span> · <span class="timeline-role">InternVL 1.5</span> (an open-source multimodal large language model) has been released (<a href="https://github.com/OpenGVLab/InternVL">Code</a>, <a href="https://arxiv.org/pdf/2404.16821">Paper</a>, <a href="https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5">Model</a> and <a href="https://arxiv.org/abs/2406.08418">Dataset</a>)</div>
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Dec, 2023</span> · <span class="timeline-role">Towards Knowledge-driven Autonomous Driving</span> (<a href="https://arxiv.org/abs/2312.04316">Review Paper</a>) has been released</div>
+<div class="timeline-header"><span class="timeline-period">Dec, 2023&nbsp;&nbsp;</span> · <span class="timeline-role">Towards Knowledge-driven Autonomous Driving</span> (<a href="https://arxiv.org/abs/2312.04316">Review Paper</a>) has been released</div>
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Jul, 2023</span> ·  <span class="timeline-role">LimSim</span> (a long-term interactive multi-scenario traffic simulator) has been released (<a href="https://github.com/PJLab-ADG/LimSim">Code</a> and <a href="https://arxiv.org/abs/2307.06648">Paper</a>)</div>
+<div class="timeline-header"><span class="timeline-period">Jul, 2023&nbsp;&nbsp;&nbsp;&nbsp;</span> · <span class="timeline-role">LimSim</span> (a long-term interactive multi-scenario traffic simulator) has been released (<a href="https://github.com/PJLab-ADG/LimSim">Code</a> and <a href="https://arxiv.org/abs/2307.06648">Paper</a>)</div>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Dec, 2022</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Rising-Star Program</strong> </div>
+  <div class="timeline-header"><span class="timeline-period">Dec, 2022&nbsp;&nbsp;</span> · <span class="timeline-role"> </span> I have been selected for the <strong>Shanghai Rising-Star Program</strong> </div>
+
 </div>
 </div>
