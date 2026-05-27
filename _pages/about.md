@@ -65,39 +65,40 @@ I am committed to contributing to this journey, not just for the technology itse
 
 <div class="timeline">
   
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Apr, 2026&nbsp;</span> · <span class="timeline-role">Heta</span> (The multimodal knowledge base for AI agents) has been released (<a href="https://knowledgexlab.github.io/Heta/">Docs</a> and <a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Apr, 2026&nbsp;</span> · <span class="timeline-role">Heta</span> (The multimodal knowledge base for AI agents) has been released (<a href="https://knowledgexlab.github.io/Heta/">Docs</a> and <a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Oct, 2025&nbsp;</span> · <span class="timeline-role">MUSE</span> (Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks) has been released (<a href="https://github.com/KnowledgeXLab/MUSE">Code</a> and <a href="https://arxiv.org/abs/2510.08002">Paper</a>)</div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Sep, 2025&nbsp;</span> · <span class="timeline-role">HetaRAG</span> (Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores) has been released (<a href="https://github.com/KnowledgeXLab/HetaRAG">Code</a> and <a href="https://arxiv.org/pdf/2509.21336">Paper</a>)</div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Apr, 2024&nbsp;</span> · <span class="timeline-role">InternVL 1.5</span> (An open-source multimodal large language model) has been released (<a href="https://github.com/OpenGVLab/InternVL">Code</a>, <a href="https://arxiv.org/pdf/2404.16821">Paper</a>, <a href="https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5">Model</a> and <a href="https://arxiv.org/abs/2406.08418">Dataset</a>)</div>
+  </div>
+
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Apr, 2024&nbsp;</span> · <span class="timeline-role">LimSim++</span> (A closed-loop platform for deploying multimodal llms in autonomous driving) has been released (<a href="https://github.com/PJLab-ADG/OASim">Code</a> and <a href="https://arxiv.org/pdf/2402.01246">Paper</a>)</div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Feb, 2024&nbsp;</span> · <span class="timeline-role">OASim</span> (An open and adaptive simulator based on neural rendering for autonomous driving) has been released (<a href="https://github.com/PJLab-ADG/LimSim/tree/LimSim_plus">Code</a> and <a href="https://arxiv.org/pdf/2402.03830">Paper</a>)</div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Dec, 2023</span> · <span class="timeline-role">Towards Knowledge-driven Autonomous Driving</span> (<a href="https://arxiv.org/abs/2312.04316">Review Paper</a>) has been released</div>
+  </div>
+
+  <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Jul, 2023&nbsp;&nbsp;</span> · <span class="timeline-role">LimSim</span> (A long-term interactive multi-scenario traffic simulator) has been released (<a href="https://github.com/PJLab-ADG/LimSim">Code</a> and <a href="https://arxiv.org/abs/2307.06648">Paper</a>)</div>
+  </div>
+
 </div>
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Oct, 2025&nbsp;</span> · <span class="timeline-role">MUSE</span> (Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks) has been released (<a href="https://github.com/KnowledgeXLab/MUSE">Code</a> and <a href="https://arxiv.org/abs/2510.08002">Paper</a>)</div>
-</div>
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Sep, 2025&nbsp;</span> · <span class="timeline-role">HetaRAG</span> (Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores) has been released (<a href="https://github.com/KnowledgeXLab/HetaRAG">Code</a> and <a href="https://arxiv.org/pdf/2509.21336">Paper</a>)</div>
-</div>
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Apr, 2024&nbsp;</span> · <span class="timeline-role">InternVL 1.5</span> (An open-source multimodal large language model) has been released (<a href="https://github.com/OpenGVLab/InternVL">Code</a>, <a href="https://arxiv.org/pdf/2404.16821">Paper</a>, <a href="https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5">Model</a> and <a href="https://arxiv.org/abs/2406.08418">Dataset</a>)</div>
-</div>
-
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Apr, 2024&nbsp;</span> · <span class="timeline-role">LimSim++</span> (A closed-loop platform for deploying multimodal llms in autonomous driving) has been released (<a href="https://github.com/PJLab-ADG/OASim">Code</a> and <a href="https://arxiv.org/pdf/2402.01246">Paper</a>)</div>
-</div>
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Feb, 2024&nbsp;</span> · <span class="timeline-role">OASim</span> (An open and adaptive simulator based on neural rendering for autonomous driving) has been released (<a href="https://github.com/PJLab-ADG/LimSim/tree/LimSim_plus">Code</a> and <a href="https://arxiv.org/pdf/2402.03830">Paper</a>)</div>
-</div>
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Dec, 2023</span> · <span class="timeline-role">Towards Knowledge-driven Autonomous Driving</span> (<a href="https://arxiv.org/abs/2312.04316">Review Paper</a>) has been released</div>
-</div>
-
-<div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Jul, 2023&nbsp;&nbsp;</span> · <span class="timeline-role">LimSim</span> (A long-term interactive multi-scenario traffic simulator) has been released (<a href="https://github.com/PJLab-ADG/LimSim">Code</a> and <a href="https://arxiv.org/abs/2307.06648">Paper</a>)</div>
-</div>
-
 
 ---
 
