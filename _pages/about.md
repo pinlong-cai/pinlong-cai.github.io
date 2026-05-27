@@ -101,11 +101,11 @@ I am committed to contributing to this journey, not just for the technology itse
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Oct, 2025&&nbsp;</span> · <span class="timeline-role">MUSE</span> (Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks) has been released (<a href="https://github.com/KnowledgeXLab/MUSE">Code</a> and <a href="https://arxiv.org/abs/2510.08002">Paper</a>)</div>
+<div class="timeline-header"><span class="timeline-period">Oct, 2025&nbsp;</span> · <span class="timeline-role">MUSE</span> (Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks) has been released (<a href="https://github.com/KnowledgeXLab/MUSE">Code</a> and <a href="https://arxiv.org/abs/2510.08002">Paper</a>)</div>
 </div>
 
 <div class="timeline-item">
-<div class="timeline-header"><span class="timeline-period">Sep, 2025&&nbsp;</span> · <span class="timeline-role">HetaRAG</span> (Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores) has been released (<a href="https://github.com/KnowledgeXLab/HetaRAG">Code</a> and <a href="https://arxiv.org/pdf/2509.21336">Paper</a>)</div>
+<div class="timeline-header"><span class="timeline-period">Sep, 2025&nbsp;</span> · <span class="timeline-role">HetaRAG</span> (Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores) has been released (<a href="https://github.com/KnowledgeXLab/HetaRAG">Code</a> and <a href="https://arxiv.org/pdf/2509.21336">Paper</a>)</div>
 </div>
 
 <div class="timeline-item">
