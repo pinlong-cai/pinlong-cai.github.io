@@ -58,6 +58,8 @@ I am committed to contributing to this journey, not just for the technology itse
   </div>
 </div>
 
+---
+
 
 #### Achievements 
 
@@ -98,6 +100,7 @@ I am committed to contributing to this journey, not just for the technology itse
 
 
 ---
+
 
 #### Awards
 
