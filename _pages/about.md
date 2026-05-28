@@ -99,13 +99,14 @@ I am committed to contributing to this journey, not just for the technology itse
   </div>
 
 </div>
+
 ---
 
 
 #### Academic Services
 
-
 <div class="timeline">
+  
   <div class="timeline-item">
   <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Journal reviewer of TPAMI, TKDE, TNNLS, TMM, Info Fusion, Proc. IEEE, TITS, TR-C, TII, TVT, TCyb</div>
   </div>
