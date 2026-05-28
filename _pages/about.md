@@ -98,6 +98,11 @@ I am committed to contributing to this journey, not just for the technology itse
   <div class="timeline-header"><span class="timeline-period">Jul, 2023&nbsp;&nbsp;</span> · <span class="timeline-role">LimSim</span> (A long-term interactive multi-scenario traffic simulator) has been released (<a href="https://github.com/PJLab-ADG/LimSim">Code</a> and <a href="https://arxiv.org/abs/2307.06648">Paper</a>)</div>
   </div>
 
+ <div class="timeline-item">
+  <div class="timeline-header"><span class="timeline-period">Sep, 2022&nbsp;&nbsp;</span> · <span class="timeline-role">
+Data Compliance Guidelines for Intelligent Connected Vehicles (<a href="http://www.openeglab.org.cn/assets/%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E6%95%B0%E6%8D%AE%E5%90%88%E8%A7%84%E6%8C%87%E5%BC%95.pdf">Doc</a>) and Compliance Evaluation Toolkit for Autonomous Driving  (<a href="http://www.openeglab.org.cn/#/solution/drive">Url</a>) have been released</div>
+  </div>
+
 </div>
 
 ---
