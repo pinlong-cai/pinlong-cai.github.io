@@ -133,6 +133,15 @@ Data Compliance Guidelines for Intelligent Connected Vehicles</span> have been r
     <div class="timeline-header"><span class="timeline-period">Sep, 2023</span> · <span class="timeline-role"> </span>Invited talk at GOSIM
 Workshop, LimSim: A Long-duration, Interactive Multi-scenario Traffic Simulator</div>
   </div>
+
+  <div class="timeline-item">
+    <div class="timeline-header"><span class="timeline-period">2020 - 2021</span> · <span class="timeline-role"> </span> Expert Member of Joint Video Experts Team (JVET), ITU-T SG 16 WP 3 & ISO/IEC JTC 1/SC 29</div>
+  </div>
+  
+  <div class="timeline-item">
+    <div class="timeline-header"><span class="timeline-period">2020 - 2021</span> · <span class="timeline-role"> </span> Expert Member of Video Subgroup, Audio Video Coding Standard (AVS) Workgroup of China</div>
+  </div>
+
   
 </div>
 
