@@ -113,11 +113,11 @@ Data Compliance Guidelines for Intelligent Connected Vehicles</span> (<a href="h
 <div class="timeline">
   
   <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Journal reviewer of TPAMI, TKDE, TNNLS, TMM, Info Fusion, Proc. IEEE, TITS, TR-C, TII, TVT, TCyb</div>
+  <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Journal reviewer of TPAMI, TKDE, TNNLS, TMM, TAI, ACM TIST, ACM TKDD, Info Fusion, Proc. IEEE, TITS, TR-C, TII, TVT, TCYB</div>
   </div>
   
   <div class="timeline-item">
-    <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Conference reviewer of CVPR, ICLR, IROS, RA-L, ITSC, IVS</div>
+    <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Conference reviewer of CVPR, ICLR, IROS, ITSC, IVS, IAVVC, ICUS, TRB Annual Meeting</div>
   </div>
 
   <div class="timeline-item">
