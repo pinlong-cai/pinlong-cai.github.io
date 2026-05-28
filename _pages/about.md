@@ -131,7 +131,7 @@ Data Compliance Guidelines for Intelligent Connected Vehicles</span> (<a href="h
   
   <div class="timeline-item">
     <div class="timeline-header"><span class="timeline-period">Sep, 2023</span> · <span class="timeline-role"> </span>Invited talk at GOSIM
-WORKSHOP, <strong> LimSim: A Long-duration, Interactive Multi-scenario Traffic Simulator </strong></div>
+Workshop, <strong> LimSim: A Long-duration, Interactive Multi-scenario Traffic Simulator </strong></div>
   </div>
   
 </div>
