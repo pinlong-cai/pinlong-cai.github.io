@@ -100,7 +100,7 @@ I am committed to contributing to this journey, not just for the technology itse
 
  <div class="timeline-item">
   <div class="timeline-header"><span class="timeline-period">Sep, 2022&nbsp;</span> · <span class="timeline-role">
-Data Compliance Guidelines for Intelligent Connected Vehicles</span> (<a href="http://www.openeglab.org.cn/assets/%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E6%95%B0%E6%8D%AE%E5%90%88%E8%A7%84%E6%8C%87%E5%BC%95.pdf">Doc</a> and <a href="http://www.openeglab.org.cn/#/solution/drive">Toolkit</a>) have been released</div>
+Data Compliance Guidelines for Intelligent Connected Vehicles</span> have been released (<a href="http://www.openeglab.org.cn/assets/%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E6%95%B0%E6%8D%AE%E5%90%88%E8%A7%84%E6%8C%87%E5%BC%95.pdf">Doc</a> and <a href="http://www.openeglab.org.cn/#/solution/drive">Toolkit</a>)</div>
   </div>
 
 </div>
