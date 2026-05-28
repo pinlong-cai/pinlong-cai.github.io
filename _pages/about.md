@@ -99,7 +99,7 @@ I am committed to contributing to this journey, not just for the technology itse
   </div>
 
  <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Sep, 2022&nbsp;&nbsp;</span> · <span class="timeline-role">
+  <div class="timeline-header"><span class="timeline-period">Sep, 2022&nbsp;</span> · <span class="timeline-role">
 Data Compliance Guidelines for Intelligent Connected Vehicles</span> (<a href="http://www.openeglab.org.cn/assets/%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E6%95%B0%E6%8D%AE%E5%90%88%E8%A7%84%E6%8C%87%E5%BC%95.pdf">Doc</a> and <a href="http://www.openeglab.org.cn/#/solution/drive">Toolkit</a>) have been released</div>
   </div>
 
@@ -126,12 +126,12 @@ Data Compliance Guidelines for Intelligent Connected Vehicles</span> (<a href="h
  
 
   <div class="timeline-item">
-    <div class="timeline-header"><span class="timeline-period">Apr, 2024</span> · <span class="timeline-role"> </span>Invited talk at Hong Kong University of Science and Technology (Guangzhou), <strong>Empowering Autonomous Driving with LLMs/VLMs </strong></div>
+    <div class="timeline-header"><span class="timeline-period">Apr, 2024</span> · <span class="timeline-role"> </span>Invited talk at Hong Kong University of Science and Technology (Guangzhou), Empowering Autonomous Driving with LLMs/VLMs </div>
   </div>
   
   <div class="timeline-item">
     <div class="timeline-header"><span class="timeline-period">Sep, 2023</span> · <span class="timeline-role"> </span>Invited talk at GOSIM
-Workshop, <strong> LimSim: A Long-duration, Interactive Multi-scenario Traffic Simulator </strong></div>
+Workshop, LimSim: A Long-duration, Interactive Multi-scenario Traffic Simulator</div>
   </div>
   
 </div>
@@ -144,11 +144,11 @@ Workshop, <strong> LimSim: A Long-duration, Interactive Multi-scenario Traffic S
 <div class="timeline">
   
   <div class="timeline-item">
-    <div class="timeline-header"><span class="timeline-period">Dec, 2025</span> · <span class="timeline-role"> </span> <strong>Shanghai Eastern Talent Program (Young Talent)</strong>, Shanghai Government</div>
+    <div class="timeline-header"><span class="timeline-period">Dec, 2025</span> · <span class="timeline-role"> </span>Shanghai Eastern Talent Program (Young Talent), Shanghai Government</div>
   </div>
 
   <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Dec, 2022</span> · <span class="timeline-role"> </span> <strong>Shanghai Rising-Star Program</strong>, Shanghai Government</div>
+  <div class="timeline-header"><span class="timeline-period">Dec, 2022</span> · <span class="timeline-role"> </span>Shanghai Rising-Star Program, Shanghai Government</div>
   </div>
 
 </div>
