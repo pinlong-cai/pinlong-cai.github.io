@@ -147,7 +147,7 @@ Workshop, LimSim: A Long-duration, Interactive Multi-scenario Traffic Simulator<
 
 ---
 
-#### Awards
+#### Awards & Honors
 
 
 <div class="timeline">
