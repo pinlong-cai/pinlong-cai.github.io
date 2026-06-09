@@ -66,7 +66,7 @@ I am committed to contributing to this journey, not just for the technology itse
 <div class="timeline">
   
   <div class="timeline-item">
-  <div class="timeline-header"><span class="timeline-period">Apr, 2026&nbsp;</span> · <span class="timeline-role">Heta</span> (The multimodal knowledge base for AI agents) has been released (<a href="https://knowledgexlab.github.io/Heta/">Docs</a> and <a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
+  <div class="timeline-header"><span class="timeline-period">Apr, 2026&nbsp;</span> · <span class="timeline-role">Heta</span> (The multimodal knowledge engine for AI agents) has been released (<a href="https://knowledgexlab.github.io/Heta/">Docs</a> and <a href="https://github.com/KnowledgeXLab/Heta">Code</a>)</div>
   </div>
 
   <div class="timeline-item">
