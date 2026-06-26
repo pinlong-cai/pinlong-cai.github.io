@@ -117,7 +117,7 @@ Data Compliance Guidelines for Intelligent Connected Vehicles</span> have been r
   </div>
   
   <div class="timeline-item">
-    <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Conference reviewer of CVPR, ICLR, IROS, ITSC, IVS, IAVVC, ICUS, TRB Annual Meeting</div>
+    <div class="timeline-header"><span class="timeline-period">2020 - now</span> · <span class="timeline-role"> </span> Conference Reviewer of ACL ARR, CVPR, ICLR, IROS, ITSC, IVS, IAVVC, ICUS, TRB Annual Meeting</div>
   </div>
 
   <div class="timeline-item">
