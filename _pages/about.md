@@ -69,7 +69,7 @@ I am committed to contributing to this journey, not just for the technology itse
 <div class="timeline-item">
   <div class="timeline-header"><span class="timeline-period">Nov, 2026&nbsp;</span> · <span class="timeline-role">Sage-Taiyi</span> (A metacognitive architecture for scientific discovery) has been released (<a href="https://arxiv.org/abs/2611.12762">Technical Report</a> and <a href="https://alpha-innovator.github.io/Sage-Taiyi/">Homepage</a>)</div>
 </div>
-
+ 
 <div class="timeline-item">
   <div class="timeline-header"><span class="timeline-period">Oct, 2026&nbsp;</span> · <span class="timeline-role">Sage-A1.5</span> (A 35B MoE agentic model for long-horizon execution and scientific exploration with capability composition) has been released (<a href="https://arxiv.org/abs/2610.28578">Technical Report</a> and <a href="https://huggingface.co/InternScience/Sage-A1.5">HuggingFace</a>)</div>
 </div>
